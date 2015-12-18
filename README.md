@@ -1,3 +1,3 @@
-# Core App
+# E-Police MIS
 
-This template can be used for all web developments
+
