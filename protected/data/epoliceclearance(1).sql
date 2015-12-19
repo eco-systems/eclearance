@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.2.7.1
+-- version 4.0.9
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 15, 2015 at 05:28 AM
--- Server version: 5.6.20
--- PHP Version: 5.5.15
+-- Generation Time: Dec 19, 2015 at 03:20 AM
+-- Server version: 5.5.34
+-- PHP Version: 5.4.22
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,8 +17,25 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `elaundry`
+-- Database: `epoliceclearance`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `applicant`
+--
+
+CREATE TABLE IF NOT EXISTS `applicant` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `firstname` varchar(200) NOT NULL,
+  `middlename` varchar(200) NOT NULL,
+  `lastname` varchar(200) NOT NULL,
+  `dateofbirth` int(11) NOT NULL,
+  `civilstatus` int(11) NOT NULL,
+  `address` varchar(300) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
@@ -30,7 +47,8 @@ CREATE TABLE IF NOT EXISTS `authassignment` (
   `itemname` varchar(64) NOT NULL,
   `userid` varchar(64) NOT NULL,
   `bizrule` text,
-  `data` text
+  `data` text,
+  PRIMARY KEY (`itemname`,`userid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -51,7 +69,8 @@ CREATE TABLE IF NOT EXISTS `authitem` (
   `type` int(11) NOT NULL,
   `description` text,
   `bizrule` text,
-  `data` text
+  `data` text,
+  PRIMARY KEY (`name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -71,8 +90,32 @@ INSERT INTO `authitem` (`name`, `type`, `description`, `bizrule`, `data`) VALUES
 
 CREATE TABLE IF NOT EXISTS `authitemchild` (
   `parent` varchar(64) NOT NULL,
-  `child` varchar(64) NOT NULL
+  `child` varchar(64) NOT NULL,
+  PRIMARY KEY (`parent`,`child`),
+  KEY `child` (`child`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `clearance`
+--
+
+CREATE TABLE IF NOT EXISTS `clearance` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `station_id` int(11) NOT NULL,
+  `applicant_id` int(11) NOT NULL,
+  `clearance_no` varchar(200) NOT NULL,
+  `purpose` varchar(200) NOT NULL,
+  `or_number` varchar(200) NOT NULL,
+  `investigator_id` int(11) NOT NULL,
+  `officer_id` int(11) NOT NULL,
+  `findings` varchar(200) NOT NULL,
+  `residentcertnumber` varchar(200) NOT NULL,
+  `amount` decimal(20,2) NOT NULL,
+  `datefiled` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
@@ -81,9 +124,10 @@ CREATE TABLE IF NOT EXISTS `authitemchild` (
 --
 
 CREATE TABLE IF NOT EXISTS `profiles` (
-`user_id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL AUTO_INCREMENT,
   `lastname` varchar(50) NOT NULL DEFAULT '',
-  `firstname` varchar(50) NOT NULL DEFAULT ''
+  `firstname` varchar(50) NOT NULL DEFAULT '',
+  PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
@@ -101,7 +145,7 @@ INSERT INTO `profiles` (`user_id`, `lastname`, `firstname`) VALUES
 --
 
 CREATE TABLE IF NOT EXISTS `profiles_fields` (
-`id` int(10) NOT NULL,
+  `id` int(10) NOT NULL AUTO_INCREMENT,
   `varname` varchar(50) NOT NULL,
   `title` varchar(255) NOT NULL,
   `field_type` varchar(50) NOT NULL,
@@ -116,7 +160,9 @@ CREATE TABLE IF NOT EXISTS `profiles_fields` (
   `widget` varchar(255) NOT NULL DEFAULT '',
   `widgetparams` varchar(5000) NOT NULL DEFAULT '',
   `position` int(3) NOT NULL DEFAULT '0',
-  `visible` int(1) NOT NULL DEFAULT '0'
+  `visible` int(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `varname` (`varname`,`widget`,`visible`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
@@ -136,8 +182,23 @@ INSERT INTO `profiles_fields` (`id`, `varname`, `title`, `field_type`, `field_si
 CREATE TABLE IF NOT EXISTS `rights` (
   `itemname` varchar(64) NOT NULL,
   `type` int(11) NOT NULL,
-  `weight` int(11) NOT NULL
+  `weight` int(11) NOT NULL,
+  PRIMARY KEY (`itemname`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `station`
+--
+
+CREATE TABLE IF NOT EXISTS `station` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `code` varchar(200) NOT NULL,
+  `name` varchar(200) NOT NULL,
+  `address` varchar(300) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
@@ -146,7 +207,7 @@ CREATE TABLE IF NOT EXISTS `rights` (
 --
 
 CREATE TABLE IF NOT EXISTS `users` (
-`id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(20) NOT NULL,
   `password` varchar(128) NOT NULL,
   `email` varchar(128) NOT NULL,
@@ -154,7 +215,12 @@ CREATE TABLE IF NOT EXISTS `users` (
   `create_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `lastvisit_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   `superuser` int(1) NOT NULL DEFAULT '0',
-  `status` int(1) NOT NULL DEFAULT '0'
+  `status` int(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `username` (`username`),
+  UNIQUE KEY `email` (`email`),
+  KEY `status` (`status`),
+  KEY `superuser` (`superuser`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
@@ -164,100 +230,6 @@ CREATE TABLE IF NOT EXISTS `users` (
 INSERT INTO `users` (`id`, `username`, `password`, `email`, `activkey`, `create_at`, `lastvisit_at`, `superuser`, `status`) VALUES
 (1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'webmaster@example.com', '9a24eff8c15a6a141ece27eb6947da0f', '2015-11-15 03:50:53', '0000-00-00 00:00:00', 1, 1),
 (2, 'demo', 'fe01ce2a7fbac8fafaed7c982a04e229', 'demo@example.com', '099f825543f7850cc038b90aaff39fac', '2015-11-15 03:50:53', '0000-00-00 00:00:00', 0, 1);
-
---
--- Indexes for dumped tables
---
-
---
--- Indexes for table `authassignment`
---
-ALTER TABLE `authassignment`
- ADD PRIMARY KEY (`itemname`,`userid`);
-
---
--- Indexes for table `authitem`
---
-ALTER TABLE `authitem`
- ADD PRIMARY KEY (`name`);
-
---
--- Indexes for table `authitemchild`
---
-ALTER TABLE `authitemchild`
- ADD PRIMARY KEY (`parent`,`child`), ADD KEY `child` (`child`);
-
---
--- Indexes for table `profiles`
---
-ALTER TABLE `profiles`
- ADD PRIMARY KEY (`user_id`);
-
---
--- Indexes for table `profiles_fields`
---
-ALTER TABLE `profiles_fields`
- ADD PRIMARY KEY (`id`), ADD KEY `varname` (`varname`,`widget`,`visible`);
-
---
--- Indexes for table `rights`
---
-ALTER TABLE `rights`
- ADD PRIMARY KEY (`itemname`);
-
---
--- Indexes for table `users`
---
-ALTER TABLE `users`
- ADD PRIMARY KEY (`id`), ADD UNIQUE KEY `username` (`username`), ADD UNIQUE KEY `email` (`email`), ADD KEY `status` (`status`), ADD KEY `superuser` (`superuser`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `profiles`
---
-ALTER TABLE `profiles`
-MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
---
--- AUTO_INCREMENT for table `profiles_fields`
---
-ALTER TABLE `profiles_fields`
-MODIFY `id` int(10) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
---
--- AUTO_INCREMENT for table `users`
---
-ALTER TABLE `users`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
---
--- Constraints for dumped tables
---
-
---
--- Constraints for table `authassignment`
---
-ALTER TABLE `authassignment`
-ADD CONSTRAINT `authassignment_ibfk_1` FOREIGN KEY (`itemname`) REFERENCES `authitem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
-
---
--- Constraints for table `authitemchild`
---
-ALTER TABLE `authitemchild`
-ADD CONSTRAINT `authitemchild_ibfk_1` FOREIGN KEY (`parent`) REFERENCES `authitem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE,
-ADD CONSTRAINT `authitemchild_ibfk_2` FOREIGN KEY (`child`) REFERENCES `authitem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
-
---
--- Constraints for table `profiles`
---
-ALTER TABLE `profiles`
-ADD CONSTRAINT `user_profile_id` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE;
-
---
--- Constraints for table `rights`
---
-ALTER TABLE `rights`
-ADD CONSTRAINT `rights_ibfk_1` FOREIGN KEY (`itemname`) REFERENCES `authitem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
