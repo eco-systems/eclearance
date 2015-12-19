@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Core-App System',
+	'name'=>'E-Police MIS',
 
 	'theme'=>'abound',
 
@@ -18,22 +18,22 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
-
 		/* import for User module */
 		'application.modules.user.models.*',
         'application.modules.user.components.*',
 		/* import for Rights module */
         'application.modules.rights.*',
         'application.modules.rights.components.*',
+        'application.modules.main.models.*',
 
 	),
 
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
-		
+		'main',
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
-			'password'=>'labada',
+			'password'=>'epolice',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
