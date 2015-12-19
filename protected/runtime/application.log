@@ -1726,3 +1726,1033 @@ Stack trace:
 REQUEST_URI=/eclearance/images/logo.png
 HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
 ---
+2015/12/19 03:29:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "main".' in C:\xampp\htdocs\eclearance\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CController.php(270): CController->missingAction('main')
+#1 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(282): CController->run('main')
+#2 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('site/main/appli...')
+#3 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/eclearance/index.php/site/main/applicants
+HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
+---
+2015/12/19 03:29:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/site/main/applicants
+---
+2015/12/19 03:29:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/site/main/applicants
+---
+2015/12/19 03:29:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
+---
+2015/12/19 03:29:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
+---
+2015/12/19 03:29:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
+---
+2015/12/19 03:29:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
+---
+2015/12/19 03:29:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "main".' in C:\xampp\htdocs\eclearance\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CController.php(270): CController->missingAction('main')
+#1 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(282): CController->run('main')
+#2 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('site/main/appli...')
+#3 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/eclearance/index.php/site/main/applicants
+HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
+---
+2015/12/19 03:29:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/site/main/applicants
+---
+2015/12/19 03:29:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/site/main/applicants
+---
+2015/12/19 03:29:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
+---
+2015/12/19 03:29:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
+---
+2015/12/19 03:29:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "main".' in C:\xampp\htdocs\eclearance\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CController.php(270): CController->missingAction('main')
+#1 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(282): CController->run('main')
+#2 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('site/main/appli...')
+#3 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/eclearance/index.php/site/main/applicants
+HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
+---
+2015/12/19 03:29:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/site/main/applicants
+---
+2015/12/19 03:30:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
+---
+2015/12/19 03:30:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
+---
+2015/12/19 03:30:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
+---
+2015/12/19 03:30:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
+---
+2015/12/19 03:30:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main/applicants".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('main/applicants')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/index.php/main/applicants
+HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
+---
+2015/12/19 03:30:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicants
+---
+2015/12/19 03:30:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicants
+---
+2015/12/19 03:30:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
+---
+2015/12/19 03:30:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
+---
+2015/12/19 03:30:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main/applicants".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('main/applicants')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/index.php/main/applicants
+---
+2015/12/19 03:30:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicants
+---
+2015/12/19 03:31:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/
+---
+2015/12/19 03:31:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/
+---
+2015/12/19 03:31:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/site/login
+---
+2015/12/19 03:31:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/site/login
+---
+2015/12/19 03:31:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php
+---
+2015/12/19 03:31:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/site/index
+---
+2015/12/19 03:31:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "config/admin".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('config/admin')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/index.php/config/admin
+HTTP_REFERER=http://localhost/eclearance/index.php/site/index
+---
+2015/12/19 03:31:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/config/admin
+---
+2015/12/19 03:31:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/
+---
+2015/12/19 03:31:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "clearance".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('clearance')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/index.php/clearance
+---
+2015/12/19 03:31:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/clearance
+---
+2015/12/19 03:32:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
+---
+2015/12/19 03:32:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
+---
+2015/12/19 03:32:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/clearance
+---
+2015/12/19 03:32:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant
+---
+2015/12/19 03:32:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant
+---
+2015/12/19 03:32:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant
+---
+2015/12/19 03:32:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant
+---
+2015/12/19 03:34:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:34:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:36:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:36:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:36:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:36:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:41:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:41:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:41:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:41:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:41:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "config/admin".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('config/admin')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/index.php/config/admin
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:41:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/config/admin
+---
+2015/12/19 03:41:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:41:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:41:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:41:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:41:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:41:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:41:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:41:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:42:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:42:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:42:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:42:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:42:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:42:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:42:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:42:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:42:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:42:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:43:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:43:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:43:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:43:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:43:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:43:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:43:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:43:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:43:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:44:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:44:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:44:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:44:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:44:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:44:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:44:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/login
+---
+2015/12/19 03:44:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/login
+---
+2015/12/19 03:44:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:44:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/user/admin
+---
+2015/12/19 03:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:45:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:45:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:46:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:46:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:47:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:47:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:47:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:47:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:47:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:47:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/dost_logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/dost_log...')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/dost_logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:50:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main/site/index".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('main/site/index')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/index.php/main/site/index
+HTTP_REFERER=http://localhost/eclearance/index.php/main/applicant/create
+---
+2015/12/19 03:50:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/main/site/index
+---
+2015/12/19 03:50:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "config/admin".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('config/admin')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/index.php/config/admin
+HTTP_REFERER=http://localhost/eclearance/index.php/main/site/index
+---
+2015/12/19 03:50:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/config/admin
+---
+2015/12/19 03:50:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/site/index
+---
+2015/12/19 03:50:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "config/admin".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('config/admin')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/index.php/config/admin
+HTTP_REFERER=http://localhost/eclearance/index.php/main/site/index
+---
+2015/12/19 03:50:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/config/admin
+---
+2015/12/19 03:50:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\eclearance\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\eclearance\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\eclearance\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/eclearance/images/logo.png
+HTTP_REFERER=http://localhost/eclearance/index.php/site/index
+---

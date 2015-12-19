@@ -11,9 +11,11 @@
 			'items'=>array(
         
         
-				array('label'=>'<i class="icon icon-home"></i>  Create New Record', 'url'=>$this->createUrl('/site/main/applicants'),'itemOptions'=>array('class'=>'')),
-				array('label'=>'<i class="icon icon-cog"></i> System Config', 'url'=>array('/config/admin')	),
-				array('label'=>'<i class="icon icon-user"></i> Users', 'url'=>array('/user/admin')	),
+				array('label'=>'<i class="icon icon-home"></i>  Create New Record', 'url'=>$this->createUrl('/main/applicant/create'),'itemOptions'=>array('class'=>'')),
+        array('label'=>'<i class="icon icon-edit"></i>  Renew Clearance', 'url'=>$this->createUrl('/main/applicant/create'),'itemOptions'=>array('class'=>'')),
+        array('label'=>'<i class="icon icon-file"></i>  View Record', 'url'=>$this->createUrl('/main/applicant/create'),'itemOptions'=>array('class'=>'')),
+				array('label'=>'<i class="icon icon-search"></i> Search', 'url'=>array('/config/admin')),
+				array('label'=>'<i class="icon icon-arrow-right"></i> Statistics', 'url'=>array('/user/admin')),
 				//array('label'=>'<i class="icon icon-th-list"></i> Customers <span class="label label-important pull-right">BETA</span>', 'url'=>array('/pmis/customer/admin')	),
 				//array('label'=>'<i class="icon icon-envelope"></i> Messages <span class="badge badge-success pull-right">12</span>', 'url'=>'#'),
 				// Include the operations menu
